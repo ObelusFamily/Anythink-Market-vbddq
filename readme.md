@@ -10,4 +10,11 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+**[TODO 05/01/2018 @vanessa-cooper]:** _Steps of installation and running the repo on a new machine?_
+- Install Docker.
+- Verify installation using **_docker -v_** and **_docker-compose -v_** commands.
+- If Docker is working correctly, the backend should be running and able to connect to your local database.
+- Test this by pointing your browser to **_http://localhost:3000/api/ping_**.
+- If the link is working, then the backend is up and running.
+- Next check the frontend and make sure it’s connected to the backend.
+- If everything is working properly, you’ll be able to create a new user on **_http://localhost:3001/register_**.
